@@ -102,3 +102,4 @@
 /home/hebert/Área de Trabalho/Projetos/Dotnet/FilmesAPI/obj/Debug/net8.0/FilmesAPI.pdb
 /home/hebert/Área de Trabalho/Projetos/Dotnet/FilmesAPI/obj/Debug/net8.0/FilmesAPI.genruntimeconfig.cache
 /home/hebert/Área de Trabalho/Projetos/Dotnet/FilmesAPI/obj/Debug/net8.0/ref/FilmesAPI.dll
+/home/hebert/Área de Trabalho/Projetos/Dotnet/FilmesAPI/obj/Debug/net8.0/FilmesAPI.sourcelink.json

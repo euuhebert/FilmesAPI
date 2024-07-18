@@ -3,8 +3,9 @@ using System.ComponentModel.DataAnnotations;
 namespace FilmesAPI.Models;
 
 public class Filme
-{
-
+{   
+    [Key]
+    [Required]
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Campo de Titulo não pode ser nulo")]

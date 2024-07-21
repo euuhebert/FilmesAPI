@@ -1,12 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FilmesAPI.Models;
+namespace FilmesAPI.Data.Dtos;
 
-public class Filme
-{   
-    [Key]
-    [Required]
-    public int Id { get; set; }
+public class CreateFilmeDto
+{
 
     [Required(ErrorMessage = "Campo de Titulo não pode ser nulo")]
     [StringLength(500)]
@@ -20,5 +17,3 @@ public class Filme
     [Range(70, 600, ErrorMessage = "A duração deve ter entre 70 min e 10h")]
     public int Duracao { get; set; }
 }
-
-   
